@@ -825,6 +825,7 @@ footer {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   outline: none;
 }
@@ -872,6 +873,8 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
@@ -880,7 +883,9 @@ footer {
   outline: none;
 }
 
-
+.footer_input_butten:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15),0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 
 .footer_input_icon {
   fill: #ffffff;
