@@ -817,6 +817,50 @@ footer {
 }
 
 
+.footer_input {
+  width: 358px;
+  height: 50px;
+
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.footer_input_butten {
+  width: 200px;
+  height: 50px;
+
+  padding: 10px 29px;
+
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.footer_input_icon {
+  fill: #ffffff;
+  margin-left: 10px;
+}
+
+.footer_input_butten_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
 /* ---------------------Модальное окно--------------- */
 
 .backdrop{
