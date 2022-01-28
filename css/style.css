@@ -767,7 +767,6 @@ footer {
 }
 
 .ause_container_title{
-  
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -826,7 +825,41 @@ footer {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+
+  outline: none;
 }
+
+
+.footer_input:hover,
+.footer_input:focus {
+  border-color: var(--accent);
+}
+
+.modal_input::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sub_mail {
+  display: block;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  color: #FFFFFF;
+
+  margin-bottom: 20px;
+}
+
 
 .footer_input_butten {
   width: 200px;
@@ -843,7 +876,11 @@ footer {
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+
+  outline: none;
 }
+
+
 
 .footer_input_icon {
   fill: #ffffff;
